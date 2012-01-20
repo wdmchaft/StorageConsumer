@@ -3,7 +3,7 @@
 //  StorageConsumer
 //
 //  Created by Yoichi Tagaya on 12/01/20.
-//  Copyright (c) 2012 el eleven. All rights reserved.
+//  Copyright (c) 2012 Yoichi Tagaya. All rights reserved.
 //
 
 #import "StorageConsumerAppDelegate.h"
