@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98D8BB8A14C9A2D600C8EFEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D8BB8914C9A2D600C8EFEF /* UIKit.framework */; };
+		98D8BB8C14C9A2D600C8EFEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D8BB8B14C9A2D600C8EFEF /* Foundation.framework */; };
+		98D8BB8E14C9A2D600C8EFEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D8BB8D14C9A2D600C8EFEF /* CoreGraphics.framework */; };
+		98D8BB9414C9A2D600C8EFEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98D8BB9214C9A2D600C8EFEF /* InfoPlist.strings */; };
+		98D8BB9614C9A2D600C8EFEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D8BB9514C9A2D600C8EFEF /* main.m */; };
+		98D8BB9A14C9A2D600C8EFEF /* StorageConsumerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D8BB9914C9A2D600C8EFEF /* StorageConsumerAppDelegate.m */; };
+		98D8BB9D14C9A2D600C8EFEF /* StorageConsumerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D8BB9C14C9A2D600C8EFEF /* StorageConsumerViewController.m */; };
+		98D8BBA014C9A2D600C8EFEF /* StorageConsumerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D8BB9E14C9A2D600C8EFEF /* StorageConsumerViewController_iPhone.xib */; };
+		98D8BBA314C9A2D600C8EFEF /* StorageConsumerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D8BBA114C9A2D600C8EFEF /* StorageConsumerViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98D8BB8514C9A2D600C8EFEF /* StorageConsumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageConsumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8BB8914C9A2D600C8EFEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98D8BB8B14C9A2D600C8EFEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98D8BB8D14C9A2D600C8EFEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98D8BB9114C9A2D600C8EFEF /* StorageConsumer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StorageConsumer-Info.plist"; sourceTree = "<group>"; };
+		98D8BB9314C9A2D600C8EFEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98D8BB9514C9A2D600C8EFEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98D8BB9714C9A2D600C8EFEF /* StorageConsumer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StorageConsumer-Prefix.pch"; sourceTree = "<group>"; };
+		98D8BB9814C9A2D600C8EFEF /* StorageConsumerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageConsumerAppDelegate.h; sourceTree = "<group>"; };
+		98D8BB9914C9A2D600C8EFEF /* StorageConsumerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageConsumerAppDelegate.m; sourceTree = "<group>"; };
+		98D8BB9B14C9A2D600C8EFEF /* StorageConsumerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageConsumerViewController.h; sourceTree = "<group>"; };
+		98D8BB9C14C9A2D600C8EFEF /* StorageConsumerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageConsumerViewController.m; sourceTree = "<group>"; };
+		98D8BB9F14C9A2D600C8EFEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StorageConsumerViewController_iPhone.xib; sourceTree = "<group>"; };
+		98D8BBA214C9A2D600C8EFEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StorageConsumerViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D8BB8214C9A2D600C8EFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8BB8A14C9A2D600C8EFEF /* UIKit.framework in Frameworks */,
+				98D8BB8C14C9A2D600C8EFEF /* Foundation.framework in Frameworks */,
+				98D8BB8E14C9A2D600C8EFEF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D8BB7A14C9A2D500C8EFEF = {
+			isa = PBXGroup;
+			children = (
+				98D8BB8F14C9A2D600C8EFEF /* StorageConsumer */,
+				98D8BB8814C9A2D600C8EFEF /* Frameworks */,
+				98D8BB8614C9A2D600C8EFEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D8BB8614C9A2D600C8EFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D8BB8514C9A2D600C8EFEF /* StorageConsumer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D8BB8814C9A2D600C8EFEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98D8BB8914C9A2D600C8EFEF /* UIKit.framework */,
+				98D8BB8B14C9A2D600C8EFEF /* Foundation.framework */,
+				98D8BB8D14C9A2D600C8EFEF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D8BB8F14C9A2D600C8EFEF /* StorageConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				98D8BB9814C9A2D600C8EFEF /* StorageConsumerAppDelegate.h */,
+				98D8BB9914C9A2D600C8EFEF /* StorageConsumerAppDelegate.m */,
+				98D8BB9B14C9A2D600C8EFEF /* StorageConsumerViewController.h */,
+				98D8BB9C14C9A2D600C8EFEF /* StorageConsumerViewController.m */,
+				98D8BB9E14C9A2D600C8EFEF /* StorageConsumerViewController_iPhone.xib */,
+				98D8BBA114C9A2D600C8EFEF /* StorageConsumerViewController_iPad.xib */,
+				98D8BB9014C9A2D600C8EFEF /* Supporting Files */,
+			);
+			path = StorageConsumer;
+			sourceTree = "<group>";
+		};
+		98D8BB9014C9A2D600C8EFEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D8BB9114C9A2D600C8EFEF /* StorageConsumer-Info.plist */,
+				98D8BB9214C9A2D600C8EFEF /* InfoPlist.strings */,
+				98D8BB9514C9A2D600C8EFEF /* main.m */,
+				98D8BB9714C9A2D600C8EFEF /* StorageConsumer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D8BB8414C9A2D600C8EFEF /* StorageConsumer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8BBA614C9A2D600C8EFEF /* Build configuration list for PBXNativeTarget "StorageConsumer" */;
+			buildPhases = (
+				98D8BB8114C9A2D600C8EFEF /* Sources */,
+				98D8BB8214C9A2D600C8EFEF /* Frameworks */,
+				98D8BB8314C9A2D600C8EFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorageConsumer;
+			productName = StorageConsumer;
+			productReference = 98D8BB8514C9A2D600C8EFEF /* StorageConsumer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D8BB7C14C9A2D500C8EFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "el eleven";
+			};
+			buildConfigurationList = 98D8BB7F14C9A2D500C8EFEF /* Build configuration list for PBXProject "StorageConsumer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98D8BB7A14C9A2D500C8EFEF;
+			productRefGroup = 98D8BB8614C9A2D600C8EFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D8BB8414C9A2D600C8EFEF /* StorageConsumer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D8BB8314C9A2D600C8EFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8BB9414C9A2D600C8EFEF /* InfoPlist.strings in Resources */,
+				98D8BBA014C9A2D600C8EFEF /* StorageConsumerViewController_iPhone.xib in Resources */,
+				98D8BBA314C9A2D600C8EFEF /* StorageConsumerViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D8BB8114C9A2D600C8EFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8BB9614C9A2D600C8EFEF /* main.m in Sources */,
+				98D8BB9A14C9A2D600C8EFEF /* StorageConsumerAppDelegate.m in Sources */,
+				98D8BB9D14C9A2D600C8EFEF /* StorageConsumerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98D8BB9214C9A2D600C8EFEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D8BB9314C9A2D600C8EFEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98D8BB9E14C9A2D600C8EFEF /* StorageConsumerViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D8BB9F14C9A2D600C8EFEF /* en */,
+			);
+			name = StorageConsumerViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		98D8BBA114C9A2D600C8EFEF /* StorageConsumerViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D8BBA214C9A2D600C8EFEF /* en */,
+			);
+			name = StorageConsumerViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D8BBA414C9A2D600C8EFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D8BBA514C9A2D600C8EFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D8BBA714C9A2D600C8EFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorageConsumer/StorageConsumer-Prefix.pch";
+				INFOPLIST_FILE = "StorageConsumer/StorageConsumer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98D8BBA814C9A2D600C8EFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorageConsumer/StorageConsumer-Prefix.pch";
+				INFOPLIST_FILE = "StorageConsumer/StorageConsumer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D8BB7F14C9A2D500C8EFEF /* Build configuration list for PBXProject "StorageConsumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8BBA414C9A2D600C8EFEF /* Debug */,
+				98D8BBA514C9A2D600C8EFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8BBA614C9A2D600C8EFEF /* Build configuration list for PBXNativeTarget "StorageConsumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8BBA714C9A2D600C8EFEF /* Debug */,
+				98D8BBA814C9A2D600C8EFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D8BB7C14C9A2D500C8EFEF /* Project object */;
+}
