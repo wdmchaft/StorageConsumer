@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		98D573C114C9AC95008F8EB8 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 98D573C014C9AC95008F8EB8 /* LICENSE.txt */; };
+		98D573C414C9B3B2008F8EB8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D573C314C9B3B2008F8EB8 /* README.md */; };
 		98D8BB8A14C9A2D600C8EFEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D8BB8914C9A2D600C8EFEF /* UIKit.framework */; };
 		98D8BB8C14C9A2D600C8EFEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D8BB8B14C9A2D600C8EFEF /* Foundation.framework */; };
 		98D8BB8E14C9A2D600C8EFEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D8BB8D14C9A2D600C8EFEF /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		98D573C014C9AC95008F8EB8 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		98D573C314C9B3B2008F8EB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		98D8BB8514C9A2D600C8EFEF /* StorageConsumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageConsumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D8BB8914C9A2D600C8EFEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98D8BB8B14C9A2D600C8EFEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +56,7 @@
 		98D8BB7A14C9A2D500C8EFEF = {
 			isa = PBXGroup;
 			children = (
+				98D573C314C9B3B2008F8EB8 /* README.md */,
 				98D573C014C9AC95008F8EB8 /* LICENSE.txt */,
 				98D8BB8F14C9A2D600C8EFEF /* StorageConsumer */,
 				98D8BB8814C9A2D600C8EFEF /* Frameworks */,
@@ -159,6 +162,7 @@
 				98D8BBA014C9A2D600C8EFEF /* StorageConsumerViewController_iPhone.xib in Resources */,
 				98D8BBA314C9A2D600C8EFEF /* StorageConsumerViewController_iPad.xib in Resources */,
 				98D573C114C9AC95008F8EB8 /* LICENSE.txt in Resources */,
+				98D573C414C9B3B2008F8EB8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
